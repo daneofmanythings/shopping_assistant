@@ -1,1 +1,1 @@
-# shopping_list_aggregator
+# shopping_assistant
