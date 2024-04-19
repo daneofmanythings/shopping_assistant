@@ -7,10 +7,10 @@ import (
 	"github.com/daneofmanythings/shopping_assistant/internal/config"
 )
 
-var C *config.Config
+var R *config.Repo
 
-func LinkConfigToHandlers(c *config.Config) {
-	C = c
+func LinkRepoToHandlers(c *config.Config) {
+	R = &c.Repo
 }
 
 func GetRoot(w http.ResponseWriter, r *http.Request) {
